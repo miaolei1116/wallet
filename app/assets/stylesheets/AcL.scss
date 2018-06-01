@@ -17,7 +17,42 @@
 	color:rgba(76,209,144,1);
 	background-color:rgb(51, 57, 68);
 }
-
+#sliderMain li:nth-child(2) a{
+	background: url("../chain_1.jpg") no-repeat 1rem 0.5rem;
+	color:#fff;
+}
+#sliderMain li:nth-child(2):hover a{
+	background: url("../chain.jpg") no-repeat 1rem 0.5rem;
+	color:rgba(76,209,144,1);
+	background-color:rgb(51, 57, 68);
+}
+#sliderMain li:nth-child(3) a{
+	background: url("../browser_1.jpg") no-repeat 1rem 0.5rem;
+	color:#fff;
+}
+#sliderMain li:nth-child(3):hover a{
+	background: url("../browser.jpg") no-repeat 1rem 0.5rem;
+	color:rgba(76,209,144,1);
+	background-color:rgb(51, 57, 68);
+}
+#sliderMain li:nth-child(4) a{
+	background: url("../wallet_1.jpg") no-repeat 1rem 0.5rem;
+	color:#fff;
+}
+#sliderMain li:nth-child(4):hover a{
+	background: url("../wallet.jpg") no-repeat 1rem 0.5rem;
+	color:rgba(76,209,144,1);
+	background-color:rgb(51, 57, 68);
+}
+#sliderMain li:nth-child(5) a{
+	background: url("../setting_1.jpg") no-repeat 1rem 0.5rem;
+	color:#fff;
+}
+#sliderMain li:nth-child(5):hover a{
+	background: url("../setting.jpg") no-repeat 1rem 0.5rem;
+	color:rgba(76,209,144,1);
+	background-color:rgb(51, 57, 68);
+}
 #qqq {
 	box-sizing:border-box;
 	-webkit-box-sizing:border-box;

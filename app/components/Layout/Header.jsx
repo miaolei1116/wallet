@@ -335,7 +335,8 @@ class Header extends React.Component {
                             <li><a style={{padding:0,overflow:"hidden",backgroundColor:"rgba(51,57,68,1)"}} onClick={this._triggerMenu}><Icon className="icon-32px" name="menu"/></a></li>
                         </ul>
                     </div>
-                    <Link className="medium-4" to="/" style={{display:"inline-block", height:"100%"}}> Bizchain 客户端 </Link>
+                    <Link className="medium-4" to="/" style={{display:"inline-block", height:"100%"}}> BizChain 客户端 </Link>
+                    <Link className="medium-8" to="/settings" style={{display:"inline-block",height:"100%",position:"absolute",right:"4rem"}}>设置</Link>
                 </div>
                 {/*{__ELECTRON__ ? <div className="grid-block show-for-medium shrink electron-navigation">
                     <ul className="menu-bar">

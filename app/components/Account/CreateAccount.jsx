@@ -174,7 +174,7 @@ class CreateAccount extends React.Component {
             }
         }
 
-        let buttonClass = classNames("submit-button button no-margin", {disabled: (!valid || (registrar_account && !isLTM))});
+        let buttonClass = classNames("success button no-margin", {disabled: (!valid || (registrar_account && !isLTM))});
 
         return (
             <form

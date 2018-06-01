@@ -294,8 +294,8 @@ class Create extends Component {
                 <div style={{marginLeft:"50%",transform:"translateX(-50%)",paddingTop:"3rem"}}>
                     <div
                         onClick={this.onCreateBackup.bind(this)}
-                        className={cname("button success", {disabled: !ready})}
-                        style={{marginBottom: 10}}
+                        className={cname("success button", {disabled: !ready})}
+                        style={{marginBottom: 10,backgroundColor:"#18BC9C"}}
                     >
                         <Translate content="wallet.create_backup_of" name={this.props.wallet.current_wallet} />
                     </div>
